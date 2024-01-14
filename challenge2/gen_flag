@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo $1 > flag.txt
+zip -e -P Sn00_3xP10r3r flag.zip flag.txt
+mv flag.zip question/
+
